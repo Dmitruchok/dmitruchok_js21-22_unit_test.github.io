@@ -96,4 +96,4 @@ modal_close.onclick = () => {
   location.reload();
 }
 
-module.exports = button_check.onclick;
+module.exports = right;
