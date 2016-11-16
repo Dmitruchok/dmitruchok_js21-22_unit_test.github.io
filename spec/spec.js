@@ -22,6 +22,7 @@ describe("array", function() {
     //act
       s = script.d.hiF(2);
       console.log(s);
+      
     //assert
     expect(s).toEqual('hi 2');
   });
