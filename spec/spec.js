@@ -1,8 +1,10 @@
 const arr = require('../js/arr.js'),
-      question = require('../js/question.js');
+      question = require('../js/question.js'),
+      mathPow = require('../js/mathPow.js');
 
 
 describe("array", function() {
+
   it("property in the array", function() {
 
     //prepqre
@@ -54,4 +56,16 @@ describe("array", function() {
     //assert
     expect(property).toEqual(questionsAnswers);
   });
+
+  it("function Math.pow", function() {
+
+    //prepqre
+    let resultPow;
+    //act
+    resultPow = mathPow(2,2)
+    //console.log(resultPow);
+    //assert
+    expect(resultPow).toBe(4);
+  });
+
 });
